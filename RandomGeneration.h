@@ -341,29 +341,7 @@ inline void RandomGeneration(const std::vector<std::string>& argvVec) {
 
 		ofsAllPuzzle << ss.str();
 		ofsPly << ss.str();
-
-		std::cout << "CSV WRITE TRIGGERED" << std::endl;
-
-        // ===== 產生 CSV 題目 =====
-        std::string boardLine;
-        for (int j = 0; j < 36; j++) {
-            boardLine += board[j];
-        }
-
-        // 檔名：5.csv / 7.csv
-        std::string csvFile = sub_dir_name + std::string("/") + std::to_string(actionNum) + ".csv";
-
-        // append 模式
-        std::ofstream ofsCsv(csvFile, std::ofstream::out | std::ofstream::app);
-
-        // 這裡你先固定寫死（之後可調整）
-        int enemyBlueNum = eBnum;
-        int maxDepthForSolve = actionNum * 3; // 你可以自己調
-
-        ofsCsv << boardLine << "," << enemyBlueNum << "," << maxDepthForSolve << std::endl;
-
-        ofsCsv.close();
-        
+		ofsPly.close();
 		if (isRedWall) {
 			ofsRedWall << ss.str();
 			ofsRedWall.close();
@@ -376,10 +354,6 @@ inline void RandomGeneration(const std::vector<std::string>& argvVec) {
 			ofsBoth << ss.str();
 			ofsBoth.close();
 		}
-        std::string solver_file_name = sub_dir_name + std::string("/") + "solver.txt";
-        std::ofstream ofsSolver(solver_file_name.c_str(), std::ofstream::out | std::ofstream::app);
-        ofsSolver << board << "," << eBnum << "," << maxDepth << std::endl;
-        ofsSolver.close();
 	}
 	clock_t end_clock = clock();
 	ofsAllPuzzle.close();
