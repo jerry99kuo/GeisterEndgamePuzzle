@@ -159,10 +159,12 @@
     <ClCompile Include="ApiUploader.cpp" />
     <ClCompile Include="CsvParser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="test_api.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="questions.csv" />
-    <None Include="test.csv" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

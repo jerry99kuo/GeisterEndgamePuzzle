@@ -1,17 +1,18 @@
 #include<iostream>
 #include"answerGenerator.h"
+#include <chrono>
 
 void answerGenerator::solve(const std::string& outputCsvPath, const std::string& mode) {
-
-	if (puzzleSet.empty()) {
+	int numPuzzles = puzzleSet.size();
+	if (numPuzzles == 0) {
 		// 謎題還沒載入
-		std::cerr << "沒有謎題請重新載入 " << std::endl;
+		std::cerr << "no puzzle! please reload" << std::endl;
 		return;
 	}
 
 	std::ofstream outFile(outputCsvPath);
 	if (!outFile.is_open()) {
-		std::cerr << "無法建立輸出檔案: " << outputCsvPath << std::endl;
+		std::cerr << "Can't create output file: " << outputCsvPath << std::endl;
 		return;
 	}
 
@@ -48,6 +49,7 @@ void answerGenerator::solve(const std::string& outputCsvPath, const std::string&
 
 	outFile.close();
 	std::cout << "All answers are saved in: " << outputCsvPath << std::endl;
+	std::cout << "Total puzzles solved: " << numPuzzles << std::endl;
 }
 
 namespace {
@@ -63,12 +65,12 @@ void answerGenerator::loadPuzzleSet(const std::string& filepath) {
 	std::ifstream file(filepath);
 
 	if (!file.is_open()) {
-		std::cerr << "無法開啟檔案: " << filepath << "\n";
+		std::cerr << "Can't open file: " << filepath << "\n";
 	}
 
 	std::string line;
 	Puzzle currentPuzzle;
-	bool isWaitingForBoard = false;
+	bool isWaitingForBoard =false;
 
 	while (std::getline(file, line)) {
 		rtrim(line); // 去除結尾的換行符號
@@ -101,18 +103,22 @@ void answerGenerator::loadPuzzleSet(const std::string& filepath) {
 }
 
 //int main() {
-//	// 假設你要讀取的檔案路徑如下 (請替換成你實際的檔名)
 //	std::string filename = "normal/1221/5.txt";
+//	auto start = std::chrono::high_resolution_clock::now();
 //
 //	answerGenerator temp;
 //	temp.loadPuzzleSet(filename);
+//	temp.solve("result", "n");
+//	auto end = std::chrono::high_resolution_clock::now();
+//	std::chrono::duration<double> diff = end - start;
+//	std::cout << "Total time for answerGen:" << diff.count() << std::endl;
 //
 //	std::vector<Data::Puzzle>myPuzzles = temp.puzzleSet;
-//	std::cout << "成功讀取了 " << myPuzzles.size() << " 個謎題！\n\n";
+//	std::cout << "success load " << myPuzzles.size() << " puzzles!\n\n";
 //
 //	// 印出前 3 個檢查結果
 //	for (size_t i = 0; i < myPuzzles.size() && i < 3; ++i) {
-//		std::cout << "第 " << (i + 1) << " 題:\n";
+//		std::cout  <<"Puzzle " << (i + 1) << "\n";
 //		std::cout << "eBnum:    " << myPuzzles[i].eBnum << "\n";
 //		std::cout << "maxDepth: " << myPuzzles[i].maxDepth << "\n";
 //		std::cout << "Board:    " << myPuzzles[i].board << "\n";

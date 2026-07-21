@@ -3,9 +3,9 @@
 #include"CsvParser.h"
 // 初始化設定
 ApiUploader::ApiUploader(const std::string& host, int port)
-    : cli(host, port) {
+    : client(host, port) {
     // 批次上傳 CSV 轉換的 JSON 資料可能會比較大，可以稍微把 timeout 設長一點
-    cli.set_connection_timeout(5, 0);
+    client.set_connection_timeout(5, 0);
 }
 
 // 執行發送
@@ -18,7 +18,7 @@ bool ApiUploader::sendJsonData(const std::string& endpoint, const nlohmann::orde
     std::string json_payload = payload.dump();
     std::cout << "Sending batch data to FastAPI " << endpoint << "..." << std::endl;
 
-    if (auto res = cli.Post(endpoint.c_str(), json_payload, "application/json")) {
+    if (auto res = client.Post(endpoint.c_str(), json_payload, "application/json")) {
         if (res->status == 200) {
             std::cout << "Success!" << std::endl;
             std::cout << "FastAPI Response: " << res->body << std::endl;

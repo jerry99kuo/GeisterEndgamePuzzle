@@ -11,7 +11,7 @@
 
 class ApiUploader {
 private:
-    httplib::Client cli;
+    httplib::Client client;
 
 public:
     // 初始化連線設定 (主機、Port)

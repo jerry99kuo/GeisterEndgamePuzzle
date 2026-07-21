@@ -1,5 +1,5 @@
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 1145
 maxpn =       0, maxdn =       0
 ..R...
@@ -15,7 +15,39 @@ actionCount 5 : 6
 actionCount 7 : 1
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -31,7 +63,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -47,23 +79,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -79,7 +95,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -95,23 +111,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -127,7 +127,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -143,7 +143,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 1145
 maxpn =       0, maxdn =       0
 ..R...
@@ -159,7 +159,39 @@ actionCount 5 : 6
 actionCount 7 : 1
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -175,7 +207,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -191,23 +223,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -223,7 +239,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -239,23 +255,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -271,7 +271,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -287,7 +287,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 1145
 maxpn =       0, maxdn =       0
 ..R...
@@ -303,7 +303,39 @@ actionCount 5 : 6
 actionCount 7 : 1
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
+calCount = 1145
+maxpn =       0, maxdn =       0
+..R...
+..Bu..
+......
+....u.
+..u.R.
+......
+
+..R.....Bu............u...u.R.......
+
+actionCount 5 : 6
+actionCount 7 : 1
+
+7 moves
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -319,7 +351,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -335,23 +367,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -367,7 +383,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
@@ -383,23 +399,7 @@ actionCount 5 : 24
 actionCount 7 : 3
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 696
 maxpn =       0, maxdn =       0
 R.B...
@@ -415,55 +415,7 @@ actionCount 5 : 22
 actionCount 7 : 2
 
 7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 986
-maxpn =       0, maxdn =       0
-......
-..RB..
-u..u..
-R...u.
-......
-......
-
-........RB..u..u..R...u.............
-
-actionCount 5 : 24
-actionCount 7 : 3
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 1145
-maxpn =       0, maxdn =       0
-..R...
-..Bu..
-......
-....u.
-..u.R.
-......
-
-..R.....Bu............u...u.R.......
-
-actionCount 5 : 6
-actionCount 7 : 1
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
-calCount = 696
-maxpn =       0, maxdn =       0
-R.B...
-u.....
-u.u...
-......
-...R..
-......
-
-R.B...u.....u.u............R........
-
-actionCount 5 : 22
-actionCount 7 : 2
-
-7 moves
-myBnum : 1, myRnum ; 2, enBnum : 2, enRnum : 1, maxDepth : 9
+myBnum : 1, myRnum : 2, enBnum : 2, enRnum : 1, maxDepth : 9
 calCount = 986
 maxpn =       0, maxdn =       0
 ......
