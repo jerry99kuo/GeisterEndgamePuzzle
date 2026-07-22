@@ -109,7 +109,7 @@ inline bool makeChild(Hashmap& map, Node* n, int from[], int to[], int moveNum, 
 }
 
 
-// 記憶體釋放// 增加inline
+// 記憶體釋放//增加inline
 inline void releaseVec(std::vector<Node*>& vecNode) {
 
 	for (int i = 0; i < vecNode.size(); i++) {

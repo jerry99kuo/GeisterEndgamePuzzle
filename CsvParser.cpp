@@ -9,7 +9,6 @@
 using namespace std;
 
 namespace Data {
-
 	ordered_json convertCsvToJson(const string& csvPath, const string& jsonPath) {
 		ordered_json allPuzzles;
 		ifstream file(csvPath);
@@ -21,7 +20,7 @@ namespace Data {
 
 		string puzzle;
 		while (getline(file, puzzle)) {
-			if (puzzle.empty()) { // 優化：使用 empty() 代替 == ""
+			if (puzzle.empty()) {
 				continue;
 			}
 
@@ -32,7 +31,6 @@ namespace Data {
 			vector<string> answer;
 			// 拆解答案
 			while (getline(ss, ansStep, ',')) {
-				// 可以在這裡加個 trim 濾掉可能多餘的空白
 				if (!ansStep.empty()) {
 					answer.push_back(ansStep);
 				}

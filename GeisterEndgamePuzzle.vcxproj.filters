@@ -61,9 +61,11 @@
     <ClCompile Include="ApiUploader.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="test_api.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="test.csv" />
     <None Include="questions.csv" />
   </ItemGroup>
   <ItemGroup>

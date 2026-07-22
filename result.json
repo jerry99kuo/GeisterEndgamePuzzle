@@ -1,45 +1,3164 @@
 [
     {
-        "question": "1234556",
+        "question": "Board",
         "answer": [
-            " 12332442",
-            " 1231231231",
-            " 1231234"
+            "Solution"
         ]
     },
     {
-        "question": "12312421",
+        "question": "\".......u.........B.Ru....u........R.\"",
         "answer": [
-            " 123213123",
-            " 23123123",
-            " 123123124"
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
         ]
     },
     {
-        "question": "12323232",
+        "question": "\".......B.u...R............uR.....u..\"",
         "answer": [
-            " 213213213",
-            " 23213213",
-            " 21321312",
-            " 213131231"
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
         ]
     },
     {
-        "question": "1232",
+        "question": "\"...R...B..R.....u......u...u........\"",
         "answer": [
-            " 231231",
-            " 21312342",
-            " 23123123",
-            " 213213"
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
         ]
     },
     {
-        "question": "32134",
+        "question": "\"..............u..B...Ru.........Ru..\"",
         "answer": [
-            " 231312 ",
-            "213213",
-            " 312421",
-            " 1232131"
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...Ru..B.u.....u.....R..............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.R......u....u...R.......u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u........B...u.R.....u........R....\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....u.......u...u..R..........R.\"",
+        "answer": [
+            "\"1. B d6 right   2. u c5 up   3. B e6 right   4. u c6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..R......u......u...R........u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..B..............u.....R......R.u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B..R........uR..u.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B....R.....u..u......u...R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.u........u.......u..R...R..\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..BR.....u....R...........uu........\"",
+        "answer": [
+            "\"1. B c6 left   2. u c2 left   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".RR.u.......B....u.......u..........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.u....R.............uR...u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u...B..u..........RuR.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.........B.R.....u......u.........R\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u......R.B...Ruu.................\"",
+        "answer": [
+            "\"1. B a4 up   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........uBR..u............u....R...\"",
+        "answer": [
+            "\"1. B e5 up   2. u d2 right   3. B e6 right   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....u..R..uuR...................\"",
+        "answer": [
+            "\"1. B d6 right   2. u c5 up   3. B e6 right   4. u c6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R....B.........u.uR.u.............\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......BR.......uu..u..............R\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...........uB.....u....R....u.R.....\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R....B............u.R..uu.........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u....R..Bu...........R.u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.u......u........u.......R......R\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B...........u...uR.R....u........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b3 left   3. B e6 right   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B............uR.u.............u.R.\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...uR.......B.......uR...........u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B....R....u.....u..R.u.......\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.uR.......R......uu.........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......BR.u...u....R.....u..........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.......R.u...R.u........u...\"",
+        "answer": [
+            "\"1. B b5 left   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B......u...........u....u.R..R....\"",
+        "answer": [
+            "\"1. B c6 left   2. u c2 left   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......R.R.B........u..u.....u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u.R........u...uB...........R......\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R.......uB.u................Ru...\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u c1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......R...uB..u.R.......u..........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"uu.B...................R...R....u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..u.u..R....R........u..........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.u............Ru....R....u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R.......u..B...uu.R................\"",
+        "answer": [
+            "\"1. B a4 up   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....BR.............uR......u.....u..\"",
+        "answer": [
+            "\"1. R f6 down   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..............u.uB.............RRu..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...........u....u.u..R.R........\"",
+        "answer": [
+            "\"1. B d6 right   2. u e3 right   3. B e6 right   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R..u..BRu..........u...............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....Ru......B....uRu................\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........R..B...u......uR.u.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R.....u.uB...u...R.................\"",
+        "answer": [
+            "\"1. B e5 right   2. u b5 up   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.......B........R...u.u....R.....\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........uu.uB...........R.....R.....\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B..u.RR.....u...u............\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....R......B........u....uuR.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u c2 left   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......R...B...Ru.........u..u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..R.......u....u......Ru.........\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u.......u..Bu...........R.R...\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u...RR.....u...u...............\"",
+        "answer": [
+            "\"1. B c6 left   2. u f6 left   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B....R.u.....uu................R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u d5 up   3. B b6 left   4. u d6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R......u.....u...B..R......u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b5 up   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........B..u.u.R.u............R...\"",
+        "answer": [
+            "\"1. B e5 right   2. u b3 left   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......u..B.u...R.u.............R...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R........u.....u.B..............Ru..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"uu........B............u...R...R....\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..BuR........R.........u..u.........\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R.....B.........u..u.R...u..........\"",
+        "answer": [
+            "\"1. R a6 right   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R.....RB....u...u............u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u..uB..u...........R..R.....\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....R..u..B......R.u......u........\"",
+        "answer": [
+            "\"1. R f6 left   2. u d2 right   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....R.u.R.u..........u..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".................B.....u..u.uRR.....\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u.....uB....R..u...........R...\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u...B...u...R..u...........R..\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........B...u...R..u.u...........R\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..u................R.Ru.....u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uB...u......R...R.......u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......R.....u...uB..u.......R.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R.......u...u...B...u...R..........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b4 up   3. B f5 up   4. u b5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....uR.....uBu...R..................\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u..Bu...........R....u....R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B........u...u......u.......R.R...\"",
+        "answer": [
+            "\"1. B c6 left   2. u f5 up   3. B b6 left   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...........uB...............u...uRR.\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u c1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R......u.........Bu......u.......R..\"",
+        "answer": [
+            "\"1. B f4 up   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B.....u....u...R......R...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u...B.........u.........u.R.....R\"",
+        "answer": [
+            "\"1. B b5 left   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B.R.u.....u...Ru..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B........uRR...u...u..............\"",
+        "answer": [
+            "\"1. B c6 left   2. u f5 up   3. B b6 left   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.....uR.........u.........R...u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u d1 right   3. B b6 left   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........u........B..u.R...Ru........\"",
+        "answer": [
+            "\"1. B f4 up   2. u d2 right   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u...R...B..R.........u.u..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........BR......uR......u.u.......\"",
+        "answer": [
+            "\"1. B e5 up   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu..........u...u........RR.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u...B...R......u.....u.......R\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.u.........u....B.Ru...............\"",
+        "answer": [
+            "\"1. B f4 up   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B......u.u..R..R....u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..............uR.B...R....u......u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u.B..R..u....R.u...................\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.u......uu..............R.R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........u.B.u......Ru.R...........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"RB........u...R.u...............u...\"",
+        "answer": [
+            "\"1. R a6 down   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.....R....uu...u.R...............\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B......u.....uR...R.......u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B..u....u....u......R....R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B........u.u..........RuR........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a4 up   3. B e6 right   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R.....u...u.u.B.R................\"",
+        "answer": [
+            "\"1. B f4 up   2. u b4 up   3. B f5 up   4. u b5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.....B..........uu.......u...R.....\"",
+        "answer": [
+            "\"1. R a6 right   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u......Bu.....u..R......R......\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R.......uB....u....R..u..........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u...R..B.R......u...u..........\"",
+        "answer": [
+            "\"1. B a4 up   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.....RB.....R.u.......u.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R..u........R.......u.u........\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u......Bu.Ru........R..........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u.....u.B...u.R.......R...........\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.......B.........Ru....R.....u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B......u...Ru........R....u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...u...R.R..B....u.........u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........u.RB........u....u.R.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u c2 left   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......R..RB.....u......u.u..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..............u.R..u.....R...u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......RB.....R............u.u....u..\"",
+        "answer": [
+            "\"1. B b5 up   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B...u.u.....R......u..R......\"",
+        "answer": [
+            "\"1. B b5 left   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......R.uB....u.R..............u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..B...R.R...........u......u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........u.B....R.......Ru......u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..uR......B..u..u................R..\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu...........u........R..u...R....\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B...uR.u..u.......R..........\"",
+        "answer": [
+            "\"1. B b5 left   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........u...u..RB.R......u.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u c2 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"Ru.B..u...R.......u.................\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu...................R.......Ruu..\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B......u..........R.u..u.......R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u........B...u......R.u.R..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......Bu........u....R...u........R\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u..Bu................u..R....R..\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..u............RuR.u.............\"",
+        "answer": [
+            "\"1. B c6 left   2. u f6 left   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......u.RB...........u.....uR......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u........BR....u...u.......R.......\"",
+        "answer": [
+            "\"1. B e5 up   2. u b6 left   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....R...........uB.u...u........R...\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......R..........B....R..uu.u.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..........R...u....u.....u..R....\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.Ru.........u.....Ru........\"",
+        "answer": [
+            "\"1. B b5 left   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".............u.R.B......R.u......u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...............R.B.uuu....R.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b3 left   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..B..R..u.................R.....u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.................uR.R.u..u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..BR............u..u.R...u..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R........uB...u.....u..........R....\"",
+        "answer": [
+            "\"1. B e5 right   2. u d5 up   3. B f5 up   4. u d6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.......R.u....B.............Ru...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u.B....R..u...........R..u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uu.......B...R...........u...R.....\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....R.Bu.....u...........R.u.......\"",
+        "answer": [
+            "\"1. B b5 left   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..Bu.R......R...u.....u.............\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.B..........R....u...u....R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u........R......B.....u.u.R........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uu....u..B..R.............R........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.....u...B...............u.....RR..\"",
+        "answer": [
+            "\"1. B e5 up   2. u a6 right   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.....BR.u.................uu.......\"",
+        "answer": [
+            "\"1. R a6 right   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B....Ru......R......u....u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.........BR.u.......u........R.....\"",
+        "answer": [
+            "\"1. B e5 up   2. u a6 right   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....R.....B.....u....u....u......R..\"",
+        "answer": [
+            "\"1. B e5 right   2. u c2 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....u..B.R.u.............u.....R....\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B......R..uu.u.........R.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b4 up   3. B e6 right   4. u b5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.........R.R..B....u..........u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.........R......uu.....u.......R.\"",
+        "answer": [
+            "\"1. B c6 left   2. u b3 left   3. B b6 left   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.B.R...........R.....u.....u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R.u..B...u....u.............R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u...u.RB........u....R.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..............R..BR....u..uu........\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u.....u.........B.......R..u...R...\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u.......RB.......uR..........u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B...R...u........u..Ru............\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u......uB...u.................RR..\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"uu............R..B.......uR.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u........B...uu..R............R..\"",
+        "answer": [
+            "\"1. B a4 up   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B..u......uu......RR.........\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"............B.R...u...R.....u....u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u.........B......Ru.........u......R\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".............u.u.B...u.......R...R..\"",
+        "answer": [
+            "\"1. B f4 up   2. u b4 up   3. B f5 up   4. u b5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u...BR....u.....u...R............\"",
+        "answer": [
+            "\"1. B b5 left   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R.....u......u.......uR........\"",
+        "answer": [
+            "\"1. B c6 left   2. u f5 up   3. B b6 left   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........R.B.u.u.....u..............R\"",
+        "answer": [
+            "\"1. B e5 right   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u.B................R..u....u...R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R.......B.....u...u..uR...........\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu.........u....u..............R.R\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u.......B....u..R...........uR..\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u c1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.....R.u.....R...u...........u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.B...u..R.....u........R......\"",
+        "answer": [
+            "\"1. B b5 up   2. u f6 left   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....R......uB...u.u...........R.....\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R...uR.......u...u.............\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R.......u.u...........u.R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u d2 right   3. B b6 left   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B..Ru....R..............u.....u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..BuR...u................R..u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B....u...uuR...R..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b3 left   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......Buu.........u.....R.........R\"",
+        "answer": [
+            "\"1. B b5 left   2. u b3 left   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u...BR......u..........R....u.......\"",
+        "answer": [
+            "\"1. R f6 down   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......u..B.......R...u...R.....u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.u.........u...R.....Ru..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B.u..u...R.u.......R......\"",
+        "answer": [
+            "\"1. B e5 right   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B......u........u.u...R....R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...........uB......u.u.R.....R......\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u..B......R...........Ru....u...\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u c1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.u.R...R..u...................u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u d1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u......u.......Bu......RR.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..uR......u.....u.............R.\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........R.BR...u.......u.u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..............u.B.R......Ru........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R..........B.u..........uR.....u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........R........B.Ru....u.u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.R.u...u................Ru..\"",
+        "answer": [
+            "\"1. B b5 left   2. u f5 up   3. B a5 up   4. u d1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..uB........u.........R...u......R..\"",
+        "answer": [
+            "\"1. B d6 right   2. u c6 left   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.........B.u.R..R.u................\"",
+        "answer": [
+            "\"1. B e5 right   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu...R..u.....u..................R\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B...u.......u..RRu........\"",
+        "answer": [
+            "\"1. B e5 right   2. u e3 right   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"uR........B..R....u....u............\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u......u......R.uB.R................\"",
+        "answer": [
+            "\"1. B f4 up   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u......R....u...R..........u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..........u............uu..R...R.\"",
+        "answer": [
+            "\"1. B c6 left   2. u c2 left   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..........u............uR.R...u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u d1 right   3. B b6 left   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u..Bu...R......u..R.............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....BR....R....uu...............u...\"",
+        "answer": [
+            "\"1. R f6 down   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.R.......u.....uR...u.......\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B........R.u....u....u....R.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".............u...B.....R.Ru......u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R...............B...uu..u...R......\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.....u.u.R....R..........u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"............B..u.u.......Ru.R.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...u...B........R....uu.R...........\"",
+        "answer": [
+            "\"1. B b5 left   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R....RuB..............u......u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..R......B.....R..........u....u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u....u...............u..R...R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u f6 left   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R..........B..............uu...uR..\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B....R......u...u..u.......R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..............R.u..u...R.u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......u..B...u.........R..u...R....\"",
+        "answer": [
+            "\"1. B e5 right   2. u b5 up   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.u.....u..R...........u......R...\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B..R...R...u.............u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......BRu........u..u.R............\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......u..R.....RB...u......u.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....u..B.........R.uu..R............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......R..B...u.u......R....u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"Ru.....u..B...............u.......R.\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........B.u.uR...........uR.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..B...............u.......R....u..R\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.u....R..u....u..R..........\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R........R......Bu.u......u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B..u.....u.....Ru......R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B....uR..u......u.R.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u b3 left   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....Ru......Bu.......Ru.............\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........uu..B..R...............R.u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B....R...u...u....R.......u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R..B..u.........u.....uR............\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B...u...........R.u....R..\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......Buu..R.......R.u.............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e3 right   3. B a5 up   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u....R...B....R.......u....u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........u..B......RuR.....u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u d2 right   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B...........u..u.u.........R...R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u f4 up   3. B b6 left   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B......u.............uR...u.....R.\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R..B.....u...R.....u.............u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B...............R...u...u..R..u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B....R...........u.R.....u....u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B.....R..u.......u..R............\"",
+        "answer": [
+            "\"1. B d6 right   2. u a6 right   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............u....B..Ru....u...R.....\"",
+        "answer": [
+            "\"1. B f4 up   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u....R........u.......Ru.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R.R...B.u..u.....u..................\"",
+        "answer": [
+            "\"1. R a6 right   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...u........Bu......R...........u.R.\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u...............B.u....RuR.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uB..R....uu..............R.\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.RB...u.R..................u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R....B.u.......u.........R.....u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R.u.B.R.........u...u............\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u.....u.BR.............u...R......\"",
+        "answer": [
+            "\"1. B e5 up   2. u b2 left   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....u.RR...u....u...............\"",
+        "answer": [
+            "\"1. B c6 left   2. u c5 up   3. B b6 left   4. u c6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R......B.u..u.........uR.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....uu.........R.....u...R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...............R.BR.uu....u.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u c2 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............R...uB.u.R..........u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........R...B.u.....u.......u....R..\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.............Ru.u...u.........R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u.....u.B...Ru.........R..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B..u.......uR.......R....u...\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........u.B.u..R...R.u............\"",
+        "answer": [
+            "\"1. B a4 up   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"............uR.u.B.......uR.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R.........B..uu....R.....u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u d2 right   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B...........uu..........u....R...R\"",
+        "answer": [
+            "\"1. B c6 left   2. u c2 left   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B............u.........Ru....R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u a6 right   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......Ru....u.u.B...R..............\"",
+        "answer": [
+            "\"1. B f4 up   2. u c5 up   3. B f5 up   4. u c6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..........B...uu.R.......u...R......\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u...Bu.....u.......R........R....\"",
+        "answer": [
+            "\"1. B b5 left   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R..u...........u..R..u.........\"",
+        "answer": [
+            "\"1. B c6 left   2. u c2 left   3. B b6 left   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R..u..B..u.....u.............R......\"",
+        "answer": [
+            "\"1. R a6 right   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......Buu.......u........R.....R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u f4 up   3. B a5 up   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"............B.u.u.....uR....R.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u e3 right   3. B a5 up   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u.u...R....B.......u.....R....\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.....u....R.uR...........u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R.....B....Ru....u....u............\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........u...u.R..B.....u...........R\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uuB........R......R.....u..........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R....u..B.............R..uu.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....R........u......Ruu.........\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R.u.u...u..B......R................\"",
+        "answer": [
+            "\"1. B a4 up   2. u d6 right   3. B a5 up   4. u f6 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.u....uR...u..............R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...u........B.u.u........R...R......\"",
+        "answer": [
+            "\"1. B a4 up   2. u d6 right   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B.......uuR.........R.u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.u......u.....R........u..R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e6 right   3. B b6 left   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......RB...u...R..u.......u.........\"",
+        "answer": [
+            "\"1. B b5 up   2. u f5 up   3. B b6 left   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........R.Buu......u.............R\"",
+        "answer": [
+            "\"1. B a4 up   2. u b4 up   3. B a5 up   4. u b5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B....u.R.u..........R..u.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a4 up   3. B e6 right   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u..............RBu....u......R.....\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R...B..u..........u......u.....R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........u.B........uu.R..R........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..............u.uB........u.R..R....\"",
+        "answer": [
+            "\"1. B f4 up   2. u c2 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u............u...Bu....R....R.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..uR................u...R.....u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R.....uR..B...u.........u.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u c2 left   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B..u.......u.......u.....R......R\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u......B............u......uRR.\"",
+        "answer": [
+            "\"1. B a4 up   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........RB..Ru...u...u.............\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....u.......u.R..u..........R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c5 up   3. B e6 right   4. u c6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u.....R....R...u............u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u d1 right   3. B b6 left   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...Ru..B....R..u............u.......\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..Ru...B.......R...........u....u...\"",
+        "answer": [
+            "\"1. B b5 left   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B........u...RR...u.u............\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......R.........uBR...u....u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u e3 right   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu....u.......u...R.......R.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u..R...B.Ru................u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R..B...u.....Ru..................u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u...u...RB..........R...u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R.....u..B...........uu.....R......\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....R......B....uu........Ru.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......Buu...........u......R...R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u c5 up   3. B a5 up   4. u c6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...........uB........R.u......R.u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u c1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..Bu....u.....u.......R...R.........\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........u.B.........R....R....uu..\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......Bu....R.....u..u.R...........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b3 left   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....R...u.B.u..........R.u.........\"",
+        "answer": [
+            "\"1. R f6 left   2. u c2 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u...u....BRR...u............\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B........R......u.u.R.........u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R.........u.u..B.u......R.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uB.u..u.RR.................\"",
+        "answer": [
+            "\"1. B e5 right   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......R.RB.....u..u........u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B..uR.......R...u...u........\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.......u....u.RR...u........\"",
+        "answer": [
+            "\"1. B b5 left   2. u d2 right   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R..........Ru...B...u..........u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uB.....u...R.u..R..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u e3 right   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......uu..R......B...........R..u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B..........uR.u.R....u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".............uuu.B.......R........R.\"",
+        "answer": [
+            "\"1. B f4 up   2. u b4 up   3. B f5 up   4. u b5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u...........u...uB..............R.R.\"",
+        "answer": [
+            "\"1. B f4 up   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B........u..u.R..............uR..\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u....u..B...R.......u........R....\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.....B......Ru.....u...........u...\"",
+        "answer": [
+            "\"1. R a6 right   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u.B..uu............R.............R.\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...uuu..R............R..........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b5 up   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R..u..B......u....u..........R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R..............B.u.u.....R....u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..R............uu..u.......R....\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B............u....R....u......uR..\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B...u.....u..R...R...........u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.u...u....u..........R....R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.B.u.u...R....R...............\"",
+        "answer": [
+            "\"1. B b5 up   2. u f6 left   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".uRR.....u.......B.........u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u........u..R....B..............u..R\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R...Bu....u.....u..........R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u b3 left   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B..u......u..R.u.........R...\"",
+        "answer": [
+            "\"1. B b5 left   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u.B.....u..........u....R........R.\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........RuB.....R......u.u..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...R.u..R...u...u...............\"",
+        "answer": [
+            "\"1. B d6 right   2. u d5 up   3. B e6 right   4. u d6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....R..u......u.....R.......u...\"",
+        "answer": [
+            "\"1. B c6 left   2. u f5 up   3. B b6 left   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..RB..u.u.......u...R...............\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u.BR.uR....u...................\"",
+        "answer": [
+            "\"1. B b5 left   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u......Ru.B..u........R.............\"",
+        "answer": [
+            "\"1. B e5 right   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..Bu.u........u...........R.....R...\"",
+        "answer": [
+            "\"1. B c6 left   2. u d6 right   3. B b6 left   4. u f6 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....R.u...B....u.....u..........R...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B.........R..u.....u.....R....u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B........u........R.R.u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......Bu...........Ru.u......R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........u.B.RR.....u.....u..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B..RR.....u.......uu.........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u....u..B.............RR.....u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u d1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.R.........uu.....u.......R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u d3 right   3. B b6 left   4. u e3 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u...R..R........uB...............u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.u...R.u....R......u........\"",
+        "answer": [
+            "\"1. B b5 left   2. u d2 right   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B.....u..u......R...R............\"",
+        "answer": [
+            "\"1. B d6 right   2. u a6 right   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B..R........R....u....u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R.B..u........u.....R......u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B........u....u..R.u.......R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u c2 left   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B............RRu..u....u.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u..B..........R...u...u.....R.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B.......R.R..u....u......u.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B................Ru.u....u.....R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u e3 right   3. B b6 left   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..uB........R......u........R....u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u....R..B..u.R.................u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uRB.............R........u.....u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B.u..u........R.u.....R.\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......Buu...........u..R........R..\"",
+        "answer": [
+            "\"1. B b5 left   2. u c5 up   3. B a5 up   4. u c6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R.....B.....R.u...........u.....u...\"",
+        "answer": [
+            "\"1. R a6 right   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......RBu....u..R.....u.............\"",
+        "answer": [
+            "\"1. B b5 up   2. u e3 right   3. B b6 left   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B........u...R..R.u.u............\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..u.............R......uu..R....\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.....B...........R...u..u.......u..\"",
+        "answer": [
+            "\"1. R a6 right   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u....R.R.B..............u.u........\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B..uR..u.R......u.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B.....u....R.....u.....u.....R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c2 left   3. B e6 right   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.uB...u....R...................u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.....u.B.......R....R..u.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R.u......B.......u....Ru.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R...............B...R...uuu........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..u.R........R.........u.u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.....u..................RR...uu..\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u..........R.u.B...........R...u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....R.B..u..u.............u.......R\"",
+        "answer": [
+            "\"1. B b5 left   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....uu...R..B........u..R...........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 down   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R...........u...RB.......u.......u..\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uR...u..B....R..u..........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....u......uB..u...R........R.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..BR................uu..R...u.......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........uu..BR............R.u.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B..............uuu..R....R\"",
+        "answer": [
+            "\"1. B e5 right   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B...................u.......RRuu..\"",
+        "answer": [
+            "\"1. B c6 left   2. u c1 left   3. B b6 left   4. u d1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..Ru...B...u.......u..............R.\"",
+        "answer": [
+            "\"1. B b5 left   2. u f5 up   3. B a5 up   4. u d6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u........B.....u...u......R.R......\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R...u.........B...u.....R....u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".........uB...u.............u..R...R\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B.....u.........u.....R...uR......\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"............B.....u...u....u.R.R....\"",
+        "answer": [
+            "\"1. B a4 up   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........u.B...u..R.u.....R........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"......u...B.....u...u.......RR......\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R.........BR..u......u......u.......\"",
+        "answer": [
+            "\"1. B e5 up   2. u e2 right   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R....R.........uB...uu.............\"",
+        "answer": [
+            "\"1. B f4 up   2. u e3 right   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...u...R.........u.u........R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....u..B......Ru.u.....R............\"",
+        "answer": [
+            "\"1. B b5 left   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B..u..u...............R......u..R\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u.R....B.u....u.R..............\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u.B....u.R..u........R.............\"",
+        "answer": [
+            "\"1. B d6 right   2. u b6 left   3. B e6 right   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..u.......B...u.R......u...R........\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B..............u.uu.R....R........\"",
+        "answer": [
+            "\"1. B c6 left   2. u f4 up   3. B b6 left   4. u f5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B..R...........u.R...u...u........\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........R......uB.u........u.R.....\"",
+        "answer": [
+            "\"1. B f4 up   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....uu.B...R..u...............R.....\"",
+        "answer": [
+            "\"1. B b5 left   2. u f6 down   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R.....B.Ru...u.........u............\"",
+        "answer": [
+            "\"1. R a6 right   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R....B......R.u.uu................\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..R.u.....uRB....................u..\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u d1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....u.RB...........u.R.u............\"",
+        "answer": [
+            "\"1. B b5 up   2. u e6 right   3. B b6 left   4. u f3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"uR........B.u..R..........u.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".R.B.........u..u.u.R...............\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u..R.R..........B....u.........u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......BR......uu.u............R....\"",
+        "answer": [
+            "\"1. B b5 left   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...R...B......uu...u.......R........\"",
+        "answer": [
+            "\"1. B b5 left   2. u b3 left   3. B a5 up   4. u a3 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...u........B......u.R...u.....R....\"",
+        "answer": [
+            "\"1. B a4 up   2. u b2 left   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".....u.B..u....u......R............R\"",
+        "answer": [
+            "\"1. B b5 left   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B...R...........u.Ru...u..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".........RB....uR....u......u.......\"",
+        "answer": [
+            "\"1. B e5 right   2. u e2 right   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...........uB.....R..u.R...u........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B..R.....u.............R......u..\"",
+        "answer": [
+            "\"1. B d6 right   2. u d1 right   3. B e6 right   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...........u.......u.R..u....R..\"",
+        "answer": [
+            "\"1. B d6 right   2. u f3 down   3. B e6 right   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".......B.u.............u........RuR.\"",
+        "answer": [
+            "\"1. B b5 left   2. u f3 down   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B...u..........u.R......Ru.......\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...R..RB............u.u.....u.......\"",
+        "answer": [
+            "\"1. B b5 up   2. u e2 right   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u.....u...B......R....R.........u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R.....u...u...uB.............R....\"",
+        "answer": [
+            "\"1. B f4 up   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....u.....uu...........R.....R..\"",
+        "answer": [
+            "\"1. B d6 right   2. u c5 up   3. B e6 right   4. u c6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..RB..u....R.........u..........u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B.....u....u....R...........Ru...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....Ru......B..u.u.....R............\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........u...B..u........R.u...R.....\"",
+        "answer": [
+            "\"1. B a4 up   2. u c2 left   3. B a5 up   4. u b2 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u...u........u.B...........R.....R\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B...........RR..u.....u...\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u c1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"Ru........B....u.R.....u............\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............BR...u...R.u........u...\"",
+        "answer": [
+            "\"1. B a4 up   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......R..B..u..u................u.R\"",
+        "answer": [
+            "\"1. B e5 right   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u.....u....R....B...u............R.\"",
+        "answer": [
+            "\"1. B f4 up   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B................u..u..R..R....u..\"",
+        "answer": [
+            "\"1. B c6 left   2. u d1 right   3. B b6 left   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R.....B.uu....u..........R.........\"",
+        "answer": [
+            "\"1. B b5 left   2. u e5 up   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u.R....u..B.......u......R..........\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"R..B................uu.R.u..........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b2 left   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B.....u........uR..u...R.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B...............u.uRR...u........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b3 left   3. B e6 right   4. u a3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........R...Bu.uR.u.................\"",
+        "answer": [
+            "\"1. B a4 up   2. u a3 down   3. B a5 up   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"........u...B..u...R........u...R...\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"....R.....B...u......u.u..R.........\"",
+        "answer": [
+            "\"1. B e5 right   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u..uR..B...u...........R.......\"",
+        "answer": [
+            "\"1. B a4 up   2. u f6 left   3. B a5 up   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B....Ru.u......u...........R......\"",
+        "answer": [
+            "\"1. B c6 left   2. u e5 up   3. B b6 left   4. u e6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B.........u.u.R.........R.u..\"",
+        "answer": [
+            "\"1. B b5 left   2. u d1 right   3. B a5 up   4. u e1 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B...uu.RR....u...................\"",
+        "answer": [
+            "\"1. B d6 right   2. u b5 up   3. B e6 right   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....R...u.u.B...............u......R\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R..R...u......u.B.......u..........\"",
+        "answer": [
+            "\"1. B f4 up   2. u b2 left   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..u...............u..u.....R..R.\"",
+        "answer": [
+            "\"1. B d6 right   2. u a5 up   3. B e6 right   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...u.......uB.........RR..u.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u d6 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..........B......Ru.u...R........u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R..R...u.B..u...u.................\"",
+        "answer": [
+            "\"1. R f6 left   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u...R.....B....u..R..............u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u d1 right   3. B f5 up   4. u e1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..BR......u.........uR.u............\"",
+        "answer": [
+            "\"1. B c6 left   2. u f3 down   3. B b6 left   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B...R......uu.u................R..\"",
+        "answer": [
+            "\"1. B c6 left   2. u b4 up   3. B b6 left   4. u b5 up   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..u...u......R...B........R.u.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....R.....R.......u...uu........\"",
+        "answer": [
+            "\"1. B d6 right   2. u c2 left   3. B e6 right   4. u b2 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..BR..R.........u.....u..u..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......B..R..R.u.....u......u.......\"",
+        "answer": [
+            "\"1. B b5 left   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"R..B........u...R........uu.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u b2 left   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B.......R.u...u.u..R....\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".u......u.B.R..R.......u............\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u f3 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".u..R.....B........u.......u....R...\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B..........Ruu.u.......R.........\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".....u.B......R......R......u...u...\"",
+        "answer": [
+            "\"1. B b5 left   2. u c1 left   3. B a5 up   4. u b1 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B.......u...R...u...u.R...........\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".......R....R....B...u.u....u.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...........uB.u...........R.uR......\"",
+        "answer": [
+            "\"1. B a4 up   2. u f5 up   3. B a5 up   4. u e2 right   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"u..B...........R....u....u......R...\"",
+        "answer": [
+            "\"1. B d6 right   2. u b2 left   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....u....Ru.B............Ru.........\"",
+        "answer": [
+            "\"1. B a4 up   2. u e6 right   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..............uu.B...R...R.u........\"",
+        "answer": [
+            "\"1. B f4 up   2. u d2 right   3. B f5 up   4. u e2 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....R..Ruu.......B.....u............\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u.....R.uB.....u....R.......\"",
+        "answer": [
+            "\"1. B f4 up   2. u f3 down   3. B f5 up   4. u f2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....uu....R...u..........R......\"",
+        "answer": [
+            "\"1. B d6 right   2. u a3 down   3. B e6 right   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"....R..B...u....u..........u.......R\"",
+        "answer": [
+            "\"1. B b5 left   2. u f5 up   3. B a5 up   4. u f6 left   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"...B....u............u....RR....u...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uR.......B...u...R.u...............\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...............uRBu.....R.u.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a3 down   3. B f5 up   4. u a2 down   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..B......................u.uuR..R...\"",
+        "answer": [
+            "\"1. B c6 left   2. u b2 left   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\"..B......R.......uu.R....u..........\"",
+        "answer": [
+            "\"1. B c6 left   2. u a3 down   3. B b6 left   4. u a2 down   5. B a6 left\""
+        ]
+    },
+    {
+        "question": "\".R....u..........B..u.....u...R.....\"",
+        "answer": [
+            "\"1. B f4 up   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"..R......uB.u.............u..R......\"",
+        "answer": [
+            "\"1. B e5 right   2. u a4 up   3. B f5 up   4. u a5 up   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"......u...B.u.......R.u....R........\"",
+        "answer": [
+            "\"1. B e5 right   2. u a5 up   3. B f5 up   4. u a6 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\".uR.......B....R....u............u..\"",
+        "answer": [
+            "\"1. B e5 right   2. u b6 left   3. B f5 up   4. u d1 right   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"........u.....R.uB.R............u...\"",
+        "answer": [
+            "\"1. B f4 up   2. u c1 left   3. B f5 up   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"u.............R..B...uu...R.........\"",
+        "answer": [
+            "\"1. B f4 up   2. u a6 right   3. B f5 up   4. u b6 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"...B....u......u...R...........Ru...\"",
+        "answer": [
+            "\"1. B d6 right   2. u c1 left   3. B e6 right   4. u b1 left   5. B f6 right\""
+        ]
+    },
+    {
+        "question": "\"............B.u.....u.......u..RR...\"",
+        "answer": [
+            "\"1. B a4 up   2. u e2 right   3. B a5 up   4. u f2 down   5. B a6 left\""
         ]
     }
 ]

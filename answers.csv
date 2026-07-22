@@ -1,6 +1,0 @@
-Board,Solution
-"......B.R......................b.r..","1. B a5 up   2. b b1 left   3. B a6 left"
-"...B........R....................b.r","1. B d6 right   2. r f1 up   3. B e6 right   4. r f2 down   5. B f6 right"
-"B.R..........b.r....................","1. B a6 left"
-".........B.R................b.r.....","no solution"
-"......B........................b.r..","1. B a5 up   2. b b1 up   3. B a6 left"
