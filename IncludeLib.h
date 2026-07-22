@@ -13,10 +13,10 @@
 #include <algorithm>
 #include <random>
 #include <chrono>
-#include <cassert> // C++ 建議用 cassert 代替 assert.h
+#include <cassert> 
 #include <cstdlib>
 #include <cstdio>
-#include <ctime>   // C++ 建議用 ctime 代替 time.h
+#include <ctime>   
 
 // ==========================================
 // 2. 跨平台系統 API (OS-Specific Headers)
@@ -50,10 +50,6 @@
 // 3. 全域設定與巨集 (Global Config & Macros)
 // ==========================================
 #define OUTPUT_JP_MESSAGE 0
-
-// 注意：這裡移除了 using namespace std; 
-// 請在 .h 檔內明確使用 std::std::string, std::std::vector 等。
-
 
 // ==========================================
 // 4. 跨平台目錄操作函式 (Directory Utils)

@@ -17,17 +17,29 @@ std::mt19937_64 IntRandom::mt64;
 namespace {
     // 讀取命令列的輸入，來執行解題功能
     void RunAnswerGen(const std::vector<std::string>& argvVec) {
-        if (argvVec.size() != 4) {
-            std::cerr << "Usage: " << argvVec[0] << " AnswerGen [input CSV path] [output CSV path] [mode]" << std::endl;
+        // 至少需要 4 個參數：[程式名] [輸入檔至少1個] [輸出檔] [mode]
+        if (argvVec.size() < 4) {
+            std::cerr << "Usage: " << argvVec[0] << " AnswerGen [input1.txt] [input2.txt] ... [output CSV path] [mode]" << std::endl;
             return;
         }
-        const std::string inputCsvPath = argvVec[1];
-        const std::string outputCsvPath = argvVec[2];
-        const std::string mode = argvVec[3];
+
+        // 從後面抓取固定的參數
+        const std::string mode = argvVec.back(); // 最後一個
+        const std::string outputCsvFilePath = argvVec[argvVec.size() - 2]; // 倒數第二個
+
         answerGenerator generator;
-        generator.loadPuzzleSet(inputCsvPath);
-        generator.solve(outputCsvPath, mode);
-	}
+
+        // 迴圈讀取所有的輸入檔 (從索引 1 開始，直到倒數第三個)
+        for (size_t i = 1; i < argvVec.size() - 2; ++i) {
+            const std::string inputTxtFilePath = argvVec[i];
+            std::cout << "Loading: " << inputTxtFilePath << std::endl;
+
+            generator.loadPuzzleSet(inputTxtFilePath);
+        }
+
+        // 所有檔案都 load 完之後，一次進行 solve
+        generator.solve(outputCsvFilePath, mode);
+    }
 
 	// 打印幫助訊息
     void PrintHelpMessage(const char* programName) {
