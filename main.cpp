@@ -39,6 +39,8 @@ namespace {
 
         // 所有檔案都 load 完之後，一次進行 solve
         generator.solve(outputCsvFilePath, mode);
+        string outputJsonFilePath = outputCsvFilePath.substr(0, outputCsvFilePath.size() - 4) + ".json";
+        Data::convertPuzzleCsvToJson(outputCsvFilePath , outputJsonFilePath);
     }
 
 	// 打印幫助訊息
@@ -110,6 +112,8 @@ int main(int argc, char* argv[]) {
         GetSolution(argvVec);
     }
     else if (argv[1] == string("AnswerGen")) {
+		// 這個模式呼叫格式是：AnswerGen [input1.txt] [input2.txt] ... [output CSV path] [mode]  中間可以插入任意數量的輸入檔案
+        // 示範 :C:\Geister-Endgame-Puzzle\x64\Release\GeisterEndgamePuzzle.exe AnswerGen normal/1221/5.txt normal/1221/7.txt result.csv n
         RunAnswerGen(argvVec);
     }
     else {

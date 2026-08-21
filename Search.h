@@ -282,10 +282,10 @@ public:
 				char src_x = char(src_id % 6 + 'a');
 				char src_y = char((6 - src_id / 6) + '0');
 				std::string direction;
-				if (dst_id - src_id == -6) { direction = "up"; }
-				else if (dst_id - src_id == 6) { direction = "down"; }
-				else if (dst_id - src_id == -1) { direction = "left"; }
-				else if (dst_id - src_id == 1) { direction = "right"; }
+				if (dst_id - src_id == -6) { direction = "N"; }      // 往上
+				else if (dst_id - src_id == 6) { direction = "S"; }  // 往下
+				else if (dst_id - src_id == -1) { direction = "W"; } // 往左
+				else if (dst_id - src_id == 1) { direction = "E"; }  // 往右
 				else { direction = "ERROR"; }
 				solution_action += (std::to_string(move_id) + ". " + std::string(1, moved_piece));
 				solution_action += (" " + std::string(1, src_x) + std::string(1, src_y) + " " + direction + "   ");
@@ -297,9 +297,9 @@ public:
 		// 處理逃脫特殊邏輯 
 		if (needReadableAns && actionNum % 2 == 0) {
 			if (previous_board[0] == 'B') {
-				solution_action += (std::to_string(move_id) + ". B a6 left   ");
+				solution_action += (std::to_string(move_id) + ". B a6 W   "); // 往左
 			} else if (previous_board[5] == 'B') {
-				solution_action += (std::to_string(move_id) + ". B f6 right   ");
+				solution_action += (std::to_string(move_id) + ". B f6 E   "); // 往右
 			}
 			else // 新增 為了解決剪枝答案缺失 
 			{

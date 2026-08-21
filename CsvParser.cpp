@@ -9,7 +9,32 @@
 using namespace std;
 
 namespace Data {
-	ordered_json convertCsvToJson(const string& csvPath, const string& jsonPath) {
+    // 把1. B f4 up   2. u c6 left   3. B f5 up   4. u b6 left   5. B f6 right 拆分回傳ordered_json
+	vector<ordered_json> splitAnswerStep(const string& ansStep) {
+		vector<ordered_json> answer;
+		stringstream ss(ansStep);
+		string stepNum;
+		string piece, pos, dir;
+		while (ss >> stepNum >> piece >> pos >> dir) {
+			ordered_json oneStep;
+			oneStep["piece"] = piece;
+			oneStep["from"] = pos;
+			oneStep["direction"] = dir;
+			answer.push_back(oneStep);
+		}
+		return answer;
+	}
+
+	string removeQuote(const string &str) {
+		string no_quote_str = str;
+		if (str.length() >= 2 && str.front() == '"' && str.back() == '"') {
+			no_quote_str = str.substr(1, str.length() - 2);
+		}
+		return no_quote_str;
+	}
+
+	// 負責處理謎題原本是csv檔改成有結構的json檔
+	ordered_json convertPuzzleCsvToJson(const string& csvPath, const string& jsonPath) {
 		ordered_json allPuzzles;
 		ifstream file(csvPath);
 
@@ -19,6 +44,9 @@ namespace Data {
 		}
 
 		string puzzle;
+		// 跳過第一行 "Board, Solution"
+		getline(file, puzzle);
+
 		while (getline(file, puzzle)) {
 			if (puzzle.empty()) {
 				continue;
@@ -26,18 +54,18 @@ namespace Data {
 
 			string question, ansStep;
 			stringstream ss(puzzle);
-			getline(ss, question, ',');
 
-			vector<string> answer;
-			// 拆解答案
-			while (getline(ss, ansStep, ',')) {
-				if (!ansStep.empty()) {
-					answer.push_back(ansStep);
-				}
-			}
+			// 去掉頭尾的引號，避免 CSV 格式破壞
+			//處理題目
+			getline(ss, question, ',');
+			string no_quote_question = removeQuote(question);
+			// 處理答案
+			getline(ss, ansStep, ',');
+			string no_quote_ansStep = removeQuote(ansStep);
+			vector<ordered_json> answer(splitAnswerStep(no_quote_ansStep)); 
 
 			ordered_json onePuzzle;
-			onePuzzle["question"] = question;
+			onePuzzle["question"] = no_quote_question;
 			onePuzzle["answer"] = answer;
 			allPuzzles.push_back(onePuzzle);
 		}
@@ -99,12 +127,12 @@ namespace Data {
 } // namespace Data
 
 
-/* test
-int main() {
-	string csvPath = "test.csv";
-	string jsonPath = "result.json";
-	Data::convertCsvToJson(csvPath, jsonPath);
-	return 0;
-}
-*/
+
+//int main() {
+//	string csvPath = "result.csv";
+//	string jsonPath = "result.json";
+//	Data::convertPuzzleCsvToJson(csvPath, jsonPath);
+//	return 0;
+//}
+
 

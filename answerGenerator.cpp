@@ -2,6 +2,8 @@
 #include"answerGenerator.h"
 #include <chrono>
 
+
+
 void answerGenerator::solve(const std::string& outputCsvPath, const std::string& mode) {
 	int numPuzzles = puzzleSet.size();
 	if (numPuzzles == 0) {
@@ -44,7 +46,7 @@ void answerGenerator::solve(const std::string& outputCsvPath, const std::string&
 			<< "\"" << solutionSteps << "\"\n";
 
 		std::cout << "Board: " << puzzle.board
-			<< " | steps: " << actionNum << "\n";
+			<< " | steps: " << actionNum << "|" << solutionSteps << "\n";
 	}
 
 	outFile.close();

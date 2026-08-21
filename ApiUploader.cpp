@@ -44,9 +44,9 @@ bool ApiUploader::sendJsonData(const std::string& endpoint, const nlohmann::orde
 //
 //int main() {
 //    // 1. 讀取並轉換資料
-//    ordered_json allPuzzles = Data::convertCsvToJson("test.csv", "result.json");
+//    ordered_json allPuzzles = Data::convertCsvToJson("result.csv", "result.json");
 //    if (allPuzzles == nullptr) {
-//        cout << "ERROR : No Data in test.csv" << endl;
+//        cout << "ERROR : No Data in result.csv" << endl;
 //        return 0;
 //    }
 //
