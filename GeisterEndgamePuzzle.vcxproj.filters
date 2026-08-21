@@ -61,7 +61,7 @@
     <ClCompile Include="ApiUploader.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="test_api.cpp">
+    <ClCompile Include="test_json.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
