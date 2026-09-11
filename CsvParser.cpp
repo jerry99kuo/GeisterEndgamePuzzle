@@ -62,11 +62,12 @@ namespace Data {
 			// 處理答案
 			getline(ss, ansStep, ',');
 			string no_quote_ansStep = removeQuote(ansStep);
-			vector<ordered_json> answer(splitAnswerStep(no_quote_ansStep)); 
-
+			vector<ordered_json> first_sol = splitAnswerStep(no_quote_ansStep); 
+			vector<vector<ordered_json>> answers;
+			answers.push_back(first_sol);
 			ordered_json onePuzzle;
 			onePuzzle["question"] = no_quote_question;
-			onePuzzle["answer"] = answer;
+			onePuzzle["answers"] = answers;
 			allPuzzles.push_back(onePuzzle);
 		}
 		// ifstream 會在離開 scope 時自動關閉，不需手動 close()
